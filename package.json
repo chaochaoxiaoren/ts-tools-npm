@@ -1,0 +1,28 @@
+{
+  "name": "ts-tools-npm",
+  "version": "0.0.1",
+  "description": "custom ts tools",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaochaoxiaoren/ts-tools-npm.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "walkoncloud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaochaoxiaoren/ts-tools-npm/issues"
+  },
+  "homepage": "https://github.com/chaochaoxiaoren/ts-tools-npm#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.4"
+  }
+}
